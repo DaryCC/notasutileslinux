@@ -1,0 +1,32 @@
+#+title: Información que cura que me econtrado por ahí
+#+description: Notas personales para las diferentes herramientas que me han sido útiles en linux.
+* Tabla de contenido :TOC:
+- [[#find][find]]
+
+* find
+~find~ is one of the more powerful and flexible command-line programs in the daily toolbox, so it's worth spending a little more time on it.
+
+Perhaps you want to find all the JPEG files in your home directory. The -name argument allows you to restrict your results to files that match the given pattern.
+#+begin_src shell
+find ~ -name '*jpg'
+#+end_src
+But wait! What if some of them have an uppercase extension? -iname is like -name, but it is case-insensitive.
+#+begin_src shell
+find ~ -iname '*jpg'
+#+end_src
+You can combine patterns with and "or" , represented by ~-o~.
+#+begin_src shell
+find ~ ( -iname 'jpeg' -o -iname 'jpg' )
+#+end_src
+Pero qué pasa si hay directiorios con el nombre de ~jpg~ o ~JPEG~,  puede
+especificar que se muestren solo los archivos con ~type -f~ o ~type -d~ para directiorios.
+#+begin_src shell
+find ~ \( -iname '*jpeg' -o -iname '*jpg' \) -type f
+#+end_src
+También se pueden hacer búsquedas de archivos basados en su fecha de modificación
+y creación, así como de su tamaño.
+
+
+
+Puedes leer más [[https://opensource.com/article/18/4/how-use-find-linux][aquí]].
+
