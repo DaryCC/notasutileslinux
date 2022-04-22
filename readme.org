@@ -2,6 +2,10 @@
 #+description: Notas personales para las diferentes herramientas que me han sido útiles en linux.
 * Tabla de contenido :TOC:
 - [[#find][find]]
+- [[#fzf][fzf]]
+  - [[#algunos-atajos][Algunos atajos]]
+  - [[#uso][Uso]]
+    - [[#using-the-finder][Using the finder:]]
 
 * find
 ~find~ is one of the more powerful and flexible command-line programs in the daily toolbox, so it's worth spending a little more time on it.
@@ -29,4 +33,29 @@ y creación, así como de su tamaño.
 
 
 Puedes leer más [[https://opensource.com/article/18/4/how-use-find-linux][aquí]].
+
+* fzf
+** Algunos atajos
++ ~C~  Paste the selected files and directories onto the command-line .
++ ~C-R~ Paste the selected command from history onto the command-line
+  + If you want to see the commands in chronological order, press ~CTRL-R~ again which toggles sorting by relevance
+  + Set ~FZF_CTRL_R_OPTS~ to pass additional options
++ M-C cd into the selected directory
+    + Set ~FZF_ALT_C_COMMAND~ to override the default command
+    + Set ~FZF_ALT_C_OPTS~ to pass additional options
+** Uso
+fzf will launch interactive finder, read the list from STDIN, and write the selected item to STDOUT.
+#+begin_src shell
+find * -type f | fzf > selected
+#+end_src
+Without STDIN pipe, fzf will use find command to fetch the list of files
+excluding hidden ones. (You can override the default command with
+~FZF_DEFAULT_COMMAND~)
+*** Using the finder:
+
+    + ~CTRL-K~ / ~CTRL-J~ (or ~CTRL-P~ / ~CTRL-N~) to move cursor up and down
+    + Enter key to select the item, ~CTRL-C~ / ~CTRL-G~ / ~ESC~ to exit
+    + On multi-select mode (*-m*), ~TAB~ and ~Shift-TAB~ to mark multiple items
+    + Emacs style key bindings
+    + Mouse: scroll, click, double-click; shift-click and shift-scroll on multi-select mode
 
