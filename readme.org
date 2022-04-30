@@ -6,6 +6,7 @@
   - [[#algunos-atajos][Algunos atajos]]
   - [[#uso][Uso]]
     - [[#using-the-finder][Using the finder:]]
+- [[#xrandr][xrandr]]
 
 * find
 ~find~ is one of the more powerful and flexible command-line programs in the daily toolbox, so it's worth spending a little more time on it.
@@ -58,4 +59,5 @@ excluding hidden ones. (You can override the default command with
     + On multi-select mode (*-m*), ~TAB~ and ~Shift-TAB~ to mark multiple items
     + Emacs style key bindings
     + Mouse: scroll, click, double-click; shift-click and shift-scroll on multi-select mode
-
+* xrandr
+Para configurar multiples monitores.
