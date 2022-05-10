@@ -76,6 +76,4 @@ Para configurar multiples monitores.
 ** copypath, zsh
 ** copyfile,zsh
 
-
-
 ######FALTA POR ESCRIBIR!!!!!
