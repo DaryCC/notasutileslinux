@@ -11,6 +11,7 @@
   - [[#exa-alternativa-moderna-a-ls][Exa, alternativa moderna a *ls*]]
   - [[#bat-alternativa-moderna-a-cat][bat, alternativa moderna a *cat*]]
   - [[#ghq--manage-local-git-repositories][ghq , manage local git repositories]]
+  - [[#fuck-plugin-para-zsh-evalua-el-commnado-sugerido-agrega---yeah-para-confirmar-automáticamente][fuck, plugin para zsh, evalua el commnado sugerido, agrega --yeah para confirmar automáticamente.]]
 
 * find
 ~find~ is one of the more powerful and flexible command-line programs in the daily toolbox, so it's worth spending a little more time on it.
@@ -70,4 +71,4 @@ Para configurar multiples monitores.
 ** bat, alternativa moderna a *cat*
 ** ghq , manage local git repositories
 ** fuck, plugin para zsh, evalua el commnado sugerido, agrega --yeah para confirmar automáticamente.
-
+Esto solo es una prueba.
