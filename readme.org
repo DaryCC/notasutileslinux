@@ -10,6 +10,7 @@
 - [[#paquetes-para-instalar][Paquetes para instalar]]
   - [[#exa-alternativa-moderna-a-ls][Exa, alternativa moderna a *ls*]]
   - [[#bat-alternativa-moderna-a-cat][bat, alternativa moderna a *cat*]]
+  - [[#ghq--manage-local-git-repositories][ghq , manage local git repositories]]
 
 * find
 ~find~ is one of the more powerful and flexible command-line programs in the daily toolbox, so it's worth spending a little more time on it.
@@ -67,3 +68,5 @@ Para configurar multiples monitores.
 * Paquetes para instalar
 ** Exa, alternativa moderna a *ls*
 ** bat, alternativa moderna a *cat*
+** ghq , manage local git repositories
+
