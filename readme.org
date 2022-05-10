@@ -71,4 +71,3 @@ Para configurar multiples monitores.
 ** bat, alternativa moderna a *cat*
 ** ghq , manage local git repositories
 ** fuck, plugin para zsh, evalua el commnado sugerido, agrega --yeah para confirmar automáticamente.
-Esto solo es una prueba.
