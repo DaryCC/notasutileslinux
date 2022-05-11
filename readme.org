@@ -76,3 +76,4 @@ Para configurar multiples monitores.
 ** copypath, zsh
 ** copyfile,zsh
 prueba de ssha.
+uno
