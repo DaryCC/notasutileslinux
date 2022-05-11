@@ -20,6 +20,7 @@
     - [[#create-a-new-local-repository-in-github][Create a new local repository in github]]
     - [[#in-terminal-add-the-url-for-the-remote-repository][In terminal, add the URL for the remote repository]]
     - [[#by-using-magit][By using Magit]]
+      - [[#push-branch-to-another-branch][Push Branch to Another Branch]]
 
 * find
 ~find~ is one of the more powerful and flexible command-line programs in the daily toolbox, so it's worth spending a little more time on it.
@@ -107,7 +108,12 @@ $ git push origin main
 *** By using Magit
 *M* (remote) *a* (add). It will ask you for the name (origin) and the URL.
 
+
 Example:
 Remote name: ~origin~
 Remote url: ~git@github.com:DaryCC/bashscript.git~
 
+**** Push Branch to Another Branch
+#+begin_src shell
+git push <remote> <local_branch>:<remote_name>
+#+end_src
