@@ -77,3 +77,4 @@ Para configurar multiples monitores.
 ** copyfile,zsh
 prueba de ssha.
 uno
+dos
