@@ -21,6 +21,17 @@
     - [[#in-terminal-add-the-url-for-the-remote-repository][In terminal, add the URL for the remote repository]]
     - [[#by-using-magit][By using Magit]]
       - [[#push-branch-to-another-branch][Push Branch to Another Branch]]
+  - [[#resolving-magit-conlflicst][Resolving magit conlflicst]]
+    - [[#g-to-refresh-the-current-buffer-g-to-refresh-all-buffers][*g* to refresh the current buffer *G* to refresh all buffers]]
+    - [[#press-spc-g-v-r-quit-with-q][press *SPC g v r*, quit with *q*]]
+    -  [[#press-spc-g-s-e-for-magit-ediff-quit-with-q][press *SPC g s*, *e* for /magit ediff/ quit with *q*]]
+      - [[#np-to-move-to-nextprevious-conflicts][*n/p* to move to next/previous conflicts]]
+      - [[#ab-to-chose-wich-changes-those-in-a-a-or-b-should-be-the-ones-to-keep-in-the-merged-file][*a/b* to chose wich changes (those in a A or B) should be the ones to keep in the merged file.]]
+      - [[#you-can-always-just-switch-to-buffer-c-and-edit-what-the-merged-version-should-look-like][You can always just switch to buffer C and edit what the merged version should look like]]
+      - [[#by-using-smerge-just-pres-ret-in-magit-status][By using Smerge, just pres RET in magit status,]]
+    - [[#rebase-config][Rebase config]]
+      - [[#differences-between-git-pull-origin-master--git-pull-originmaster][Differences between git pull origin master & git pull origin/master]]
+      - [[#not-possible-to-fast-forward-even-with-no-changes][Not possible to fast-forward even with no changes]]
 
 * find
 ~find~ is one of the more powerful and flexible command-line programs in the daily toolbox, so it's worth spending a little more time on it.
@@ -110,10 +121,104 @@ $ git push origin main
 
 
 Example:
+
+
 Remote name: ~origin~
 Remote url: ~git@github.com:DaryCC/bashscript.git~
 
 **** Push Branch to Another Branch
 #+begin_src shell
 git push <remote> <local_branch>:<remote_name>
+#+end_src
+** Resolving magit conlflicst
+*** *g* to refresh the current buffer *G* to refresh all buffers
+*** press *SPC g v r*, quit with *q*
+***  press *SPC g s*, *e* for /magit ediff/ quit with *q*
+**** *n/p* to move to next/previous conflicts
+**** *a/b* to chose wich changes (those in a A or B) should be the ones to keep in the merged file.
+**** You can always just switch to buffer C and edit what the merged version should look like
+**** By using Smerge, just pres RET in magit status, 
+C-c ^ RET       smerge-keep-current
+C-c ^ =         Prefix Command
+C-c ^ C         smerge-combine-with-next
+C-c ^ E         smerge-ediff
+C-c ^ R         smerge-refine
+C-c ^ a         smerge-keep-all
+C-c ^ b         smerge-keep-base
+C-c ^ l         smerge-keep-lower
+C-c ^ m         smerge-keep-upper
+C-c ^ n         smerge-next
+C-c ^ o         smerge-keep-lower
+C-c ^ p         smerge-prev
+C-c ^ r         smerge-resolve
+C-c ^ u         smerge-keep-upper
+
+C-c ^ = <       smerge-diff-base-upper
+C-c ^ = =       smerge-diff-upper-lower
+C-c ^ = >       smerge-diff-base-lower
+*** Rebase config
+#+begin_src shell
+warning: Pulling without specifying how to reconcile divergent branches is
+discouraged. You can squelch this message by running one of the following
+commands sometime before your next pull:
+
+  git config pull.rebase false  # merge (the default strategy)
+  git config pull.rebase true   # rebase
+  git config pull.ff only       # fast-forward only
+
+You can replace "git config" with "git config --global" to set a default
+preference for all repositories. You can also pass --rebase, --no-rebase,
+or --ff-only on the command line to override the configured default per
+invocation.
+
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), 51.49 KiB | 850.00 KiB/s, done.
+#+end_src
+When you do a git pull origin master,
+git pull performs a merge, which often creates a merge commit. Therefore, by default, pulling from the remote is not a harmless operation: it can create a new commit SHA hash value that didn’t exist before. This behavior can confuse a user, because what feels like it should be a harmless download operation actually changes the commit history in unpredictable ways.
+
+
+
+To avoid this, you need
+~git pull --ff-only~
+With ~git pull --ff-only~, Git will update your branch only if it can be
+=“fast-forwarded”= without creating new commits. If this can’t be done, ~git pull
+--ff-only~ simply aborts with an error message.
+
+
+
+You can configure your Git client to always use ~--ff-only~ by default, so you get
+this behavior even if you forget the command-line flag:
+
+
+~git config --global pull.ff only~
+**** Differences between git pull origin master & git pull origin/master
+
+
+~git pull origin master~ will pull changes from the ~origin~ remote, ~master~ branch
+and merge them to the local checked-out branch.
+
+~git pull origin/master~ will pull changes from the locally stored branch
+~origin/master~ and merge that to the local checked-out branch. The ~origin/master~
+branch is essentially a "cached copy" of what was last pulled from ~origin~, which
+is why it's called a remote branch in git parlance. This might be somewhat
+confusing.
+
+You can see what branches are available with ~git branch~ and ~git branch -r~ to see
+the "remote branches".
+**** Not possible to fast-forward even with no changes
+#+begin_src shell
+$ git pull -v --ff-only
+From github.com:username/repo
+ = [up to date]      branch    -> origin/branch
+ = [up to date]      branch2    -> origin/branch2
+ = [up to date]      branch3    -> origin/branch3
+fatal: Not possible to fast-forward, aborting.
+#+end_src
+Your commits on your 'develop' branch do not match the commits on your 'origin' branch. Do this:
+#+begin_src shell
+git pull origin develop --rebase
 #+end_src
