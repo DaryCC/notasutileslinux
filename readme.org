@@ -138,24 +138,24 @@ git push <remote> <local_branch>:<remote_name>
 **** *a/b* to chose wich changes (those in a A or B) should be the ones to keep in the merged file.
 **** You can always just switch to buffer C and edit what the merged version should look like
 **** By using Smerge, just pres RET in magit status, 
-C-c ^ RET       smerge-keep-current
-C-c ^ =         Prefix Command
-C-c ^ C         smerge-combine-with-next
-C-c ^ E         smerge-ediff
-C-c ^ R         smerge-refine
-C-c ^ a         smerge-keep-all
-C-c ^ b         smerge-keep-base
-C-c ^ l         smerge-keep-lower
-C-c ^ m         smerge-keep-upper
-C-c ^ n         smerge-next
-C-c ^ o         smerge-keep-lower
-C-c ^ p         smerge-prev
-C-c ^ r         smerge-resolve
-C-c ^ u         smerge-keep-upper
++ C-c ^ RET       smerge-keep-current
++ C-c ^ =         Prefix Command
++ C-c ^ C         smerge-combine-with-next
++ C-c ^ E         smerge-ediff
++ C-c ^ R         smerge-refine
++ C-c ^ a         smerge-keep-all
++ C-c ^ b         smerge-keep-base
++ C-c ^ l         smerge-keep-lower
++ C-c ^ m         smerge-keep-upper
++ C-c ^ n         smerge-next
++ C-c ^ o         smerge-keep-lower
++ C-c ^ p         smerge-prev
++ C-c ^ r         smerge-resolve
++ C-c ^ u         smerge-keep-upper
 
-C-c ^ = <       smerge-diff-base-upper
-C-c ^ = =       smerge-diff-upper-lower
-C-c ^ = >       smerge-diff-base-lower
++ C-c ^ = <       smerge-diff-base-upper
++ C-c ^ = =       smerge-diff-upper-lower
++ C-c ^ = >       smerge-diff-base-lower
 *** Rebase config
 #+begin_src shell
 warning: Pulling without specifying how to reconcile divergent branches is
