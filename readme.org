@@ -177,8 +177,12 @@ remote: Compressing objects: 100% (4/4), done.
 remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (4/4), 51.49 KiB | 850.00 KiB/s, done.
 #+end_src
-When you do a git pull origin master,
-git pull performs a merge, which often creates a merge commit. Therefore, by default, pulling from the remote is not a harmless operation: it can create a new commit SHA hash value that didn’t exist before. This behavior can confuse a user, because what feels like it should be a harmless download operation actually changes the commit history in unpredictable ways.
+When you do a git pull origin master, git pull performs a merge, which often
+creates a merge commit. Therefore, by default, pulling from the remote is not a
+harmless operation: it can create a new commit SHA hash value that didn’t exist
+before. This behavior can confuse a user, because what feels like it should be a
+harmless download operation actually changes the commit history in unpredictable
+ways.
 
 
 
