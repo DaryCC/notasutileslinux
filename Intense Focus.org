@@ -120,7 +120,7 @@ algo que te gusta, ver videos o pendejear un rato en 4chan o reddit.
 
 
 #+DOWNLOADED: file:///home/darycc/Pictures/atomichabits3.png @ 2022-05-26 01:05:59
-[[file:Las_4_reglas_para_construir_un_hábito?/2022-05-26_01-05-59_atomichabits3.png]]
+[[file:Las_4_reglas_para_construir_un_habito/2022-05-26_01-05-59_atomichabits3.png]]
 
 * Haz una lista de TODO's diarios
 De  esta manera centrarás todas tus energías en terminar esa tarea es específico, sentirás la
