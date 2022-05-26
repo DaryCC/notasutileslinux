@@ -1,1 +1,50 @@
-/home/darycc/Dropbox/Org/Intense Focus.org
+#+title: Deep Focus tips
+* Tabla de contenidos :TOC:
+- [[#antes-de][Antes de:]]
+- [[#atomic-habits][Atomic Habits]]
+  -  [[#ejemplos][Ejemplos:]]
+- [[#haz-una-lista-de-todos-diarios][Haz una lista de TODO's diarios]]
+
+* Antes de:
++ *Ser 1% mejor cada día*
++ Concéntrate en mejor el sistema antes obsesionarte con tu meta.
++ Mentalízate en la persona que quieres convertirte en vez de los resultados que
+  quieres, por ejemplo: *SOY UN PROGRAMADOR*, quiero ser una persona feliz programaando y  ganando
+  bastante dinero, en vez de aprender  a programar, quiero ser un músico, en vez
+  de aprender a tocar algun intrumento.
++ Conseguir el objetivo no es algo pasajero, requiere mucho esfuezo
++ Tener una mentalidad orientada a los objetivos y obtener el “YOYO Effect”
++ Diseña tu entorno para el éxito
+  * Lugar limpio y ordenado
+  * Apps Forest
+* Atomic Habits
+[[https://www.youtube.com/watch?v=PZ7lDrwYdZc][Aquí]] puedes encontrar un video que lo resume.
+Para construir un hábito , el autor propone cuatro pasos:
+#+DOWNLOADED: file:///home/darycc/Pictures/atomichabits.png @ 2022-05-25 20:23:11
+[[file:Atomic_Habits/2022-05-25_20-23-11_atomichabits.png]]
+1. Señal: Desencadena el proceso en el cerebro que inicia determinada conducta.
+   Es una pequeña porción de información que anticipa la recompensa.
+2. Anhelo: Son la fuerza motivacional detrás de cada hábito. No se anhela el
+   hábito, se anhela el cambio de estado que trae consigo. Los anhelos difieren
+   de una persona a otra, por lo que pensamientos, sentimientos y emociones del
+   observador son las que transforman una señal en un anhelo.
+3. Respuesta: Es justamente el hábito que realizamos. Depende de la motivación y
+   la competencia.
+4. Recompensa: Son las metas finales de cada hábito. Las recompensas nos
+   satisfacen y nos enseñan. Proporcionan beneficios por si mismas a la vez que
+   nos enseñan que acciones vale la pena recordar en el futuro.
+
+**  Ejemplos:
+| Cue (señal)     | Craving (Deseo)                 | Response (respuesta)         | Reward (recompensa)        |
+|-----------------+---------------------------------+------------------------------+----------------------------|
+| Teléfono vibra  | Ganas de ver el mensaje         | Leer el mensaje              | No más ansias              |
+| Mente bloqueada | Ganas de aliviar la frustración | Pendejear en redes o youtube | Feliz de haberse distraido |
+
+Las señales pueden ser muchas cosas, por ejemplo: lugares, olores, situaciones...\
+Con el tiempo las recompaensas se asocian a las señales, generalmente a estos se
+asocia a malos habitos: Si estas aburrido inmediatamente abres isntagram.
+   
+* Haz una lista de TODO's diarios
+De  Esta manera centrarás todas tus energías en terminar esa tarea, sentirás la
+presión de terminarlos.
+
