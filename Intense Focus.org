@@ -13,7 +13,7 @@
   bastante dinero, en vez de aprender  a programar, quiero ser un músico, en vez
   de aprender a tocar algun intrumento.
 + Conseguir el objetivo no es algo pasajero, requiere mucho esfuezo
-+ Tener una mentalidad orientada a los objetivos y obtener el “YOYO Effect”
++ Tener una mentalidad orientada a los objetivos y *NO* obtener el “YOYO Effect”
 + Diseña tu entorno para el éxito
   * Lugar limpio y ordenado
   * Apps Forest
@@ -40,7 +40,7 @@ Para construir un hábito , el autor propone cuatro pasos:
 | Teléfono vibra  | Ganas de ver el mensaje         | Leer el mensaje              | No más ansias              |
 | Mente bloqueada | Ganas de aliviar la frustración | Pendejear en redes o youtube | Feliz de haberse distraido |
 
-Las señales pueden ser muchas cosas, por ejemplo: lugares, olores, situaciones...\
+Las señales pueden ser muchas cosas, por ejemplo: lugares, olores, situaciones...\\
 Con el tiempo las recompaensas se asocian a las señales, generalmente a estos se
 asocia a malos habitos: Si estas aburrido inmediatamente abres isntagram.
    
