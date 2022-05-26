@@ -1,0 +1,129 @@
+#+title: Deep Focus tips
+* Tabla de contenidos :TOC:
+- [[#antes-de][Antes de:]]
+- [[#atomic-habits][Atomic Habits]]
+  -  [[#ejemplos-de-las-4-etapas][Ejemplos de las 4 etapas:]]
+- [[#las-4-reglas-para-construir-un-hábito][Las 4 reglas para construir un hábito?]]
+  - [[#make-it-obvious][Make it obvious]]
+    - [[#set-a-time-and-place][Set a time and place:]]
+    - [[#stack-habits][Stack habits]]
+    - [[#design-you-enviroment][Design you enviroment]]
+  - [[#make-it-attractive][Make it attractive]]
+    - [[#how-to-use-temptation-bundling-premacks-principle][How to use temptation bundling?: Premack's principle]]
+    - [[#group-influence][Group influence]]
+    - [[#make-it-unattractive][Make it unattractive]]
+  - [[#make-it-easy][Make it easy]]
+    - [[#make-it-difficult][Make it difficult]]
+    - [[#the-2-minute-rule-stop-procrastinating][the 2 minute rule (stop procrastinating)]]
+  - [[#make-it-satisfying][Make it Satisfying]]
+- [[#haz-una-lista-de-todos-diarios][Haz una lista de TODO's diarios]]
+
+* Antes de:
++ *Ser 1% mejor cada día*
++ Concéntrate en mejor el sistema antes obsesionarte con tu meta.
++ Mentalízate en la persona que quieres convertirte en vez de los resultados que
+  quieres, por ejemplo: *SOY UN PROGRAMADOR*, quiero ser una persona feliz programaando y  ganando
+  bastante dinero, en vez de aprender  a programar, quiero ser un músico, en vez
+  de aprender a tocar algun intrumento.
++ Conseguir el objetivo no es algo pasajero, requiere mucho esfuezo
++ Tener una mentalidad orientada a los objetivos y *NO* obtener el “YOYO Effect”
++ Diseña tu entorno para el éxito
+  * Lugar limpio y ordenado
+  * Apps Forest
+* Atomic Habits
+[[https://www.youtube.com/watch?v=PZ7lDrwYdZc][Aquí]] puedes encontrar un video que lo resume.
+Para construir un hábito , el autor propone cuatro pasos:
+#+DOWNLOADED: file:///home/darycc/Pictures/atomichabits.png @ 2022-05-25 20:23:11
+[[file:Atomic_Habits/2022-05-25_20-23-11_atomichabits.png]]
+1. Señal: Desencadena el proceso en el cerebro que inicia determinada conducta.
+   Es una pequeña porción de información que anticipa la recompensa.
+2. Anhelo: Son la fuerza motivacional detrás de cada hábito. No se anhela el
+   hábito, se anhela el cambio de estado que trae consigo. Los anhelos difieren
+   de una persona a otra, por lo que pensamientos, sentimientos y emociones del
+   observador son las que transforman una señal en un anhelo.
+3. Respuesta: Es justamente el hábito que realizamos. Depende de la motivación y
+   la competencia.
+4. Recompensa: Son las metas finales de cada hábito. Las recompensas nos
+   satisfacen y nos enseñan. Proporcionan beneficios por si mismas a la vez que
+   nos enseñan que acciones vale la pena recordar en el futuro.
+
+**  Ejemplos de las 4 etapas:
+| Cue (señal)     | Craving (Deseo)                 | Response (respuesta)         | Reward (recompensa)        |
+|-----------------+---------------------------------+------------------------------+----------------------------|
+| Teléfono vibra  | Ganas de ver el mensaje         | Leer el mensaje              | No más ansias              |
+| Mente bloqueada | Ganas de aliviar la frustración | Pendejear en redes o youtube | Feliz de haberse distraido |
+
+Las señales pueden ser muchas cosas, por ejemplo: lugares, olores, situaciones...\\
+Con el tiempo las recompensas se asocian a las señales, generalmente a estos se
+asocian a malos habitos, por ejemplo: Si estas aburrido inmediatamente te entran las ganas de abrir instagram.
+   
+* Las 4 reglas para construir un hábito?
+** Make it obvious
+Hazlo obvio (make a score card to classify your habits by posisitive,
+negative or neutral).\\
+#+begin_quote
+Until you make the unconscious coscious, it will direct your life and you will
+call it fate. \\
+ /Carl yung/
+#+end_quote 
+Si quieres tomar más agua al día, entonces trata de usar botellas o recipientes
+que estén a la vista, y que sean de fácil acceso.\\
+Si quieres deshacerte de un mal hábito, por ejemplo dejar de usar mucho el
+celular, entonces pon tu celular en un lugar fuera de tu vista  o quizás usar un
+bloqueador como Forests.
+*** Set a time and place:
+#+begin_quote
++ "I will [behavior] at [time] in [this location]"
++ "Voy a leer un libro 15 minutos  a las 7pm después de ir a crossfit, mientras
+descanso en la casa."
+#+end_quote
+*** Stack habits
+#+begin_quote
+- After [current habit], I will [new habit]...
+- Después de estudiar 4 horas, iré a hacer crossfit...
+- Después de hacer crossfit voy a leer 10 minutos...
+- Después de cenar vot a estudiar 4 horas...
+- Después de estudiar 8 horas voy a jugar una hora de LOL...
+#+end_quote
+Try to use triggers, you should pick automatic routines like brushing your
+teeths, or hacing breakfast, turning off yout alarm...etc
+*** Design you enviroment
+** Make it attractive
+La dopamina de nuestro cerebro se libera cuando realizamos actividades
+placenteras, pero también cuándo las anticipamos o imagimos una recompensa, por
+ejemplo, cuándo entreno duro si me tomo una coca cola, cada que no quiero ir, me
+imagino la coca y la cosa se vuelve más fácil de hacer.\\
+Los picos de dopamina son mayores antes de realizar ciertas avtividades, por
+ejemplo ver el celuar, comer algo rico, o planer una vacaciones.
+*** How to use temptation bundling?: Premack's principle
++ Coca->crossfit
++ Estudiar->Video juegos
+
+*** Group influence
+- Si quieres hacer más ejercicio rodeate de gente que le guste el deporte.\\
+- Si quieres ser programador a lo mejor juntarte con gente así te ayudará más.
+*** Make it unattractive
+Si tienes un  mal hábito, piensa en todas las desventajas de practicarlo
+** Make it easy
+Si quieres ir al gym pero te da hueva, escoge un gym que te quede de paso.
+*** Make it difficult
+- Si quieres ver videos, haz 20 lagartijas\\
+- Si quieres ver la tele, desconecta el cable cada vez
+*** the 2 minute rule (stop procrastinating)
+- Si quieres ir a correr, estira preparate por dos minutos\\
+- Si quieres leer un libro, empieza por leer la primera página
+** Make it Satisfying
+Pudes usar "indicadores" visuales para ir midiendo tu progreso, ya sea un app como
+forest, tachar una tarea en un TODO list, apilar monedas...etc\\
+Cada que acompletes una tarea, hazste regálate un pequeño placer, ya se comer
+algo que te gusta, ver videos o pendejear un rato en 4chan o reddit.
+
+
+#+DOWNLOADED: file:///home/darycc/Pictures/atomichabits3.png @ 2022-05-26 01:05:59
+[[file:Las_4_reglas_para_construir_un_hábito?/2022-05-26_01-05-59_atomichabits3.png]]
+
+* Haz una lista de TODO's diarios
+De  esta manera centrarás todas tus energías en terminar esa tarea es específico, sentirás la
+presión de terminarlos. Se determinó que los adictos a la cocaina experimentan
+mayores niveles de dopamina antes de probar la droga, que durante su consumo.
+
