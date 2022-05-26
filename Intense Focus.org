@@ -73,17 +73,17 @@ celular, entonces pon tu celular en un lugar fuera de tu vista  o quizás usar u
 bloqueador como Forests.
 *** Set a time and place:
 #+begin_quote
-"I will [behavior] at [time] in [this location]"
-"Voy a leer un libro 15 minutos  a las 7pm después de ir a crossfit, mientras
++ "I will [behavior] at [time] in [this location]"
++ "Voy a leer un libro 15 minutos  a las 7pm después de ir a crossfit, mientras
 descanso en la casa."
 #+end_quote
 *** Stack habits
 #+begin_quote
-After [current habit], I will [new habit]...
-Despue de estudiar 4 horas, iré a hacer crossfit...
-despues de hacer crossfit voy a leer 10 minutos...
-despues de cenar vot a estudiar 4 horas...
-despuesd de estudiar 8 horas voy a jugar una hora de LOL...
+- After [current habit], I will [new habit]...
+- Después de estudiar 4 horas, iré a hacer crossfit...
+- Después de hacer crossfit voy a leer 10 minutos...
+- Después de cenar vot a estudiar 4 horas...
+- Después de estudiar 8 horas voy a jugar una hora de LOL...
 #+end_quote
 Try to use triggers, you should pick automatic routines like brushing your
 teeths, or hacing breakfast, turning off yout alarm...etc
@@ -100,29 +100,29 @@ ejemplo ver el celuar, comer algo rico, o planer una vacaciones.
 + Estudiar->Video juegos
 
 *** Group influence
-Si quieres hacer más ejercicio rodeate de gente que le guste el deporte.\\
-Si quieres ser programador a lo mejor juntarte con gente así te ayudará más.
+- Si quieres hacer más ejercicio rodeate de gente que le guste el deporte.\\
+- Si quieres ser programador a lo mejor juntarte con gente así te ayudará más.
 *** Make it unattractive
 Si tienes un  mal hábito, piensa en todas las desventajas de practicarlo
 *** Make it easy
 Si quieres ir al gym pero te da hueva, escoge un gym que te quede de paso.
 *** Make difficult
-Si quieres ver videos, haz 20 lagartijas\\
-Si quieres ver la tele, desconecta el cable cada vez
+- Si quieres ver videos, haz 20 lagartijas\\
+- Si quieres ver la tele, desconecta el cable cada vez
 *** the 2 minute rule (stop procrastinating)
-Si quieres ir a correr, estira preparate por dos minutos\\
-Si quieres leer un libro, empieza por leer la primera página
+- Si quieres ir a correr, estira preparate por dos minutos\\
+- Si quieres leer un libro, empieza por leer la primera página
 ** Make it Satisfying
 Pudes usar "indicadores" visuales para ir midiendo tu progreso, ya sea un app como
 forest, tachar una tarea en un TODO list, apilar monedas...etc\\
 Cada que acompletes una tarea, hazste regálate un pequeño placer, ya se comer
 algo que te gusta, ver videos o pendejear un rato en 4chan o reddit.
 
-#+DOWNLOADED: file:///home/darycc/Downloads/atomichabits2.png @ 2022-05-26 00:13:13
-[[file:Las_4_reglas_para_construir_un_hábito?/2022-05-26_00-13-13_atomichabits2.png]]
+#+DOWNLOADED: file:///home/darycc/Pictures/atomichabits2.png @ 2022-05-26 00:31:14
+[[file:Las_4_reglas_para_construir_un_hábito?/2022-05-26_00-31-14_atomichabits2.png]]
 
 * Haz una lista de TODO's diarios
-De  Esta manera centrarás todas tus energías en terminar esa tarea es específico, sentirás la
+De  esta manera centrarás todas tus energías en terminar esa tarea es específico, sentirás la
 presión de terminarlos. Se determinó que los adictos a la cocaina experimentan
-mayores niveles de cocacina antes de probar la coca, que durante su consumo.
+mayores niveles de dopamina antes de probar la droga, que durante su consumo.
 
