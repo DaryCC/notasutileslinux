@@ -104,7 +104,7 @@ ejemplo ver el celuar, comer algo rico, o planer una vacaciones.
 - Si quieres ser programador a lo mejor juntarte con gente así te ayudará más.
 *** Make it unattractive
 Si tienes un  mal hábito, piensa en todas las desventajas de practicarlo
-*** Make it easy
+** Make it easy
 Si quieres ir al gym pero te da hueva, escoge un gym que te quede de paso.
 *** Make difficult
 - Si quieres ver videos, haz 20 lagartijas\\
