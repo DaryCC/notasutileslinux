@@ -3,13 +3,19 @@
 - [[#antes-de][Antes de:]]
 - [[#atomic-habits][Atomic Habits]]
   -  [[#ejemplos-de-las-4-etapas][Ejemplos de las 4 etapas:]]
-  - [[#las-4-reglas-para-construir-un-hábito][Las 4 reglas para construir un hábito?]]
+- [[#las-4-reglas-para-construir-un-hábito][Las 4 reglas para construir un hábito?]]
+  - [[#make-it-obvious][Make it obvious]]
     - [[#set-a-time-and-place][Set a time and place:]]
     - [[#stack-habits][Stack habits]]
     - [[#design-you-enviroment][Design you enviroment]]
-  - [[#make-attractive][Make attractive]]
+  - [[#make-it-attractive][Make it attractive]]
     - [[#how-to-use-temptation-bundling-premacks-principle][How to use temptation bundling?: Premack's principle]]
     - [[#group-influence][Group influence]]
+    - [[#make-it-unattractive][Make it unattractive]]
+    - [[#make-it-easy][Make it easy]]
+    - [[#make-difficult][Make difficult]]
+    - [[#the-2-minute-rule-stop-procrastinating][the 2 minute rule (stop procrastinating)]]
+  - [[#make-it-satisfying][Make it Satisfying]]
 - [[#haz-una-lista-de-todos-diarios][Haz una lista de TODO's diarios]]
 
 * Antes de:
@@ -51,8 +57,9 @@ Las señales pueden ser muchas cosas, por ejemplo: lugares, olores, situaciones.
 Con el tiempo las recompensas se asocian a las señales, generalmente a estos se
 asocia a malos habitos, por ejemplo: Si estas aburrido inmediatamente te entran las ganas de abrir instagram.
    
-** Las 4 reglas para construir un hábito?
-1.- Hazlo obvio (make a score card to classify your habits by posisitive,
+* Las 4 reglas para construir un hábito?
+** Make it obvious
+Hazlo obvio (make a score card to classify your habits by posisitive,
 negative or neutral).\\
 #+begin_quote
 Until you make the unconscious coscious, it will direct your life and you will
@@ -81,7 +88,7 @@ despuesd de estudiar 8 horas voy a jugar una hora de LOL...
 Try touse triggers, you should pick automatic routines like brushing your
 teeths, or hacing breakfast, turning off yout alarm...etc
 *** Design you enviroment
-** Make attractive
+** Make it attractive
 La dopamina de nuestro cerebro se libera cuando realizamos actividades
 placenteras, pero también cuándo las anticipamos o imagimos una recompensa, por
 ejemplo, cuándo entreno duro si me tomo una coca cola, cada que no quiero ir, me
@@ -89,12 +96,31 @@ imagino la coca y la cosa se vuelve más fácil de hacer.\\
 Los picos de dopamina son mayores antes de realizar ciertas avtividades, por
 ejemplo ver el celuar, comer algo rico, o planer una vacaciones.
 *** How to use temptation bundling?: Premack's principle
-Coca->crossfit
-Estudiar->Video juegos
++ Coca->crossfit
++ Estudiar->Video juegos
 
 *** Group influence
 Si quieres hacer más ejercicio rodeate de gente que le guste el deporte.\\
 Si quieres ser programador a lo mejor juntarte con gente así te ayudará más.
+*** Make it unattractive
+Si tienes un  mal hábito, piensa en todas las desventajas de practicarlo
+*** Make it easy
+Si quieres ir al gym pero te da hueva, escoge un gym que te quede de paso.
+*** Make difficult
+Si quieres ver videos, haz 20 lagartijas\\
+Si quieres ver la tele, desconecta el cable cada vez
+*** the 2 minute rule (stop procrastinating)
+Si quieres ir a correr, estira preparate por dos minutos\\
+Si quieres leer un libro, empieza por leer la primera página
+** Make it Satisfying
+Pudes usar "indicadores" visuales para ir midiendo tu progreso, ya sea un app como
+forest, tachar una tarea en un TODO list, apilar monedas...etc\\
+Cada que acompletes una tarea, hazste regálate un pequeño placer, ya se comer
+algo que te gusta, ver videos o pendejear un rato en 4chan o reddit.
+
+#+DOWNLOADED: file:///home/darycc/Downloads/atomichabits2.png @ 2022-05-26 00:13:13
+[[file:Las_4_reglas_para_construir_un_hábito?/2022-05-26_00-13-13_atomichabits2.png]]
+
 * Haz una lista de TODO's diarios
 De  Esta manera centrarás todas tus energías en terminar esa tarea es específico, sentirás la
 presión de terminarlos. Se determinó que los adictos a la cocaina experimentan
