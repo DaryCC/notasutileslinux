@@ -2,7 +2,8 @@
 * Tabla de contenidos :TOC:
 - [[#antes-de][Antes de:]]
 - [[#atomic-habits][Atomic Habits]]
-  -  [[#ejemplos][Ejemplos:]]
+  -  [[#ejemplos-de-las-4-etapas][Ejemplos de las 4 etapas:]]
+  - [[#las-4-reglas-para-construir-un-hábito][Las 4 reglas para construir un hábito?]]
 - [[#haz-una-lista-de-todos-diarios][Haz una lista de TODO's diarios]]
 
 * Antes de:
@@ -34,16 +35,22 @@ Para construir un hábito , el autor propone cuatro pasos:
    satisfacen y nos enseñan. Proporcionan beneficios por si mismas a la vez que
    nos enseñan que acciones vale la pena recordar en el futuro.
 
-**  Ejemplos:
+**  Ejemplos de las 4 etapas:
 | Cue (señal)     | Craving (Deseo)                 | Response (respuesta)         | Reward (recompensa)        |
 |-----------------+---------------------------------+------------------------------+----------------------------|
 | Teléfono vibra  | Ganas de ver el mensaje         | Leer el mensaje              | No más ansias              |
 | Mente bloqueada | Ganas de aliviar la frustración | Pendejear en redes o youtube | Feliz de haberse distraido |
 
 Las señales pueden ser muchas cosas, por ejemplo: lugares, olores, situaciones...\\
-Con el tiempo las recompaensas se asocian a las señales, generalmente a estos se
+Con el tiempo las recompensas se asocian a las señales, generalmente a estos se
 asocia a malos habitos, por ejemplo: Si estas aburrido inmediatamente te entran las ganas de abrir instagram.
    
+** Las 4 reglas para construir un hábito?
+1.- Hazlo obvio (make a score card to classify your habits by posisitive,
+negative or neutral).\\
+=Until you make the unconscious coscious, it will direct your life and you will
+call it fate.\\
+= /Carl yung/
 * Haz una lista de TODO's diarios
 De  Esta manera centrarás todas tus energías en terminar esa tarea es específico, sentirás la
 presión de terminarlos.
