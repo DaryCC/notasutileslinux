@@ -117,8 +117,6 @@ Pudes usar "indicadores" visuales para ir midiendo tu progreso, ya sea un app co
 forest, tachar una tarea en un TODO list, apilar monedas...etc\\
 Cada que acompletes una tarea, hazste regálate un pequeño placer, ya se comer
 algo que te gusta, ver videos o pendejear un rato en 4chan o reddit.
-#+DOWNLOADED: file:///home/darycc/Coding/github.com/DaryCC/notasutileslinux/Las_4_reglas_para_construir_un_habito/2022-05-26_00-31-14_atomichabits2.png @ 2022-05-26 00:40:08
-[[file:Las_4_reglas_para_construir_un_habito?/2022-05-26_00-40-08_2022-05-26_00-31-14_atomichabits2.png]]
 
 
 * Haz una lista de TODO's diarios
