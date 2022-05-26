@@ -4,6 +4,12 @@
 - [[#atomic-habits][Atomic Habits]]
   -  [[#ejemplos-de-las-4-etapas][Ejemplos de las 4 etapas:]]
   - [[#las-4-reglas-para-construir-un-hábito][Las 4 reglas para construir un hábito?]]
+    - [[#set-a-time-and-place][Set a time and place:]]
+    - [[#stack-habits][Stack habits]]
+    - [[#design-you-enviroment][Design you enviroment]]
+  - [[#make-attractive][Make attractive]]
+    - [[#how-to-use-temptation-bundling-premacks-principle][How to use temptation bundling?: Premack's principle]]
+    - [[#group-influence][Group influence]]
 - [[#haz-una-lista-de-todos-diarios][Haz una lista de TODO's diarios]]
 
 * Antes de:
@@ -49,11 +55,48 @@ asocia a malos habitos, por ejemplo: Si estas aburrido inmediatamente te entran 
 1.- Hazlo obvio (make a score card to classify your habits by posisitive,
 negative or neutral).\\
 #+begin_quote
-*Until you make the unconscious coscious, it will direct your life and you will
-call it fate.* \\
+Until you make the unconscious coscious, it will direct your life and you will
+call it fate. \\
  /Carl yung/
 #+end_quote 
+Si quieres tomar más agua al día, entonces trata de usar botellas o recipientes
+que estén a la vista, y que sean de fácil acceso.\\
+Si quieres deshacerte de un mal hábito, por ejemplo dejar de usar mucho el
+celular, entonces pon tu celular en un lugar fuera de tu vista  o quizás usar un
+bloqueador como Forests.
+*** Set a time and place:
+#+begin_quote
+"I will [behavior] at [time] in [this location]"
+"Voy a leer un libro 15 minutos  a las 7pm después de ir a crossfit, mientras
+descanso en la casa."
+#+end_quote
+*** Stack habits
+#+begin_quote
+After [current habit], I will [new habit]...
+Despue de estudiar 4 horas, iré a hacer crossfit...
+despues de hacer crossfit voy a leer 10 minutos...
+despues de cenar vot a estudiar 4 horas...
+despuesd de estudiar 8 horas voy a jugar una hora de LOL...
+#+end_quote
+Try touse triggers, you should pick automatic routines like brushing your
+teeths, or hacing breakfast, turning off yout alarm...etc
+*** Design you enviroment
+** Make attractive
+La dopamina de nuestro cerebro se libera cuando realizamos actividades
+placenteras, pero también cuándo las anticipamos o imagimos una recompensa, por
+ejemplo, cuándo entreno duro si me tomo una coca cola, cada que no quiero ir, me
+imagino la coca y la cosa se vuelve más fácil de hacer.\\
+Los picos de dopamina son mayores antes de realizar ciertas avtividades, por
+ejemplo ver el celuar, comer algo rico, o planer una vacaciones.
+*** How to use temptation bundling?: Premack's principle
+Coca->crossfit
+Estudiar->Video juegos
+
+*** Group influence
+Si quieres hacer más ejercicio rodeate de gente que le guste el deporte.\\
+Si quieres ser programador a lo mejor juntarte con gente así te ayudará más.
 * Haz una lista de TODO's diarios
 De  Esta manera centrarás todas tus energías en terminar esa tarea es específico, sentirás la
-presión de terminarlos.
+presión de terminarlos. Se determinó que los adictos a la cocaina experimentan
+mayores niveles de cocacina antes de probar la coca, que durante su consumo.
 
