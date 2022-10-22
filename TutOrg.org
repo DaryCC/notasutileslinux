@@ -1,0 +1,114 @@
+#+title: Tutorial básico para Org-mode
+#+author:dary.cc@gmail.com
+* Tabla de contenido :TOC:
+  - [[#focus-mode][Focus mode]]
+    - [[#narrow-to-subtree][Narrow to Subtree]]
+      - [[#-s-n][, s n]]
+    - [[#widen-to-subtree][Widen to Subtree]]
+      - [[#-s-w][, s w]]
+    - [[#focus][Focus]]
+      - [[#spc-w-c-c][spc w c C]]
+- [[#formatting][Formatting]]
+  - [[#spc-m-x-][spc m x ...]]
+  - [[#-x-][, x ...]]
+- [[#lists][Lists]]
+  - [[#undoredered-list-][Undoredered list (+)]]
+  - [[#oredered-list-1-][Oredered list (1. ...)]]
+- [[#schedule][Schedule]]
+  - [[#make-a-todo-from-a-list][Make a TODO from a list]]
+    - [[#hacer-ejercicio-de-hackerrank][Hacer ejercicio de hackerrank]]
+    - [[#terminar-django][Terminar Django]]
+    - [[#estudiar-react][Estudiar React]]
+  - [[#schedule-task-from-calendar][Schedule Task from calendar]]
+    - [[#schedule---d-s][Schedule:  , D s]]
+    - [[#set-deadline--d][Set Deadline: , D]]
+- [[#code-blocks][Code blocks]]
+  - [[#narrow-to-region-indirect][narrow-to-region-indirect]]
+  - [[#org-babel-switch-to-session-with-code][org-babel-switch-to-session-with-code]]
+  - [[#org-edit-special][Org-edit-special]]
+
+** Focus mode
+*** Narrow to Subtree
+**** , s n
+*** Widen to Subtree
+**** , s w
+*** Focus
+**** spc w c C
+* Formatting
+** spc m x ...
+** , x ...
+
+* Lists
+C-c C-c to check the bracket
+Use Visual mode and O
+** Undoredered list (+)
++ item 1
++ item 2
++ item 3
+  + subitem whit TAB or S-TAB
+  + subitem 2
+** Oredered list (1. ...)
+C-c C-c to  recalculate from yanked list or toggle the state of the checkbox 
+M-S-RET Insert a new item with a checkbox
+
+1. item 1
+2. [ ] Item 2
+3. item 3
+4. [-] La puta Madre
+   + subitem whit TAB or S-TAB
+   + [ ] subitem 2
+   + [X] Subtask 3
+
+
+Puedes ciclar los estilos de bullets usando SHIFT: *S-left* o *S-right*
+* Schedule
+** Make a TODO from a list
+Usa S-RIGHT/LEFT para TODO, NEXT...
+Usa S-DOWN/UP para prioridades...
+*** TODO [#B] Hacer ejercicio de hackerrank
+- State "TODO"       from              [2022-03-28 Mon 03:04]
+- State "DONE"       from              [2022-03-28 Mon 03:04]
+- State "TODO"       from              [2022-03-28 Mon 03:04]
+*** TODO [#A] Terminar Django
+SCHEDULED: <2022-03-29 Tue 14:00-18:00>
+- State "TODO"       from              [2022-03-28 Mon 03:35]
+- State "DONE"       from              [2022-03-28 Mon 03:35]
+- State "TODO"       from              [2022-03-28 Mon 03:35]
+- State "TODO"       from              [2022-03-28 Mon 03:29]
+*** TODO [#B] Estudiar React
+DEADLINE: <2022-04-01 Fri 12:30>
+- State "TODO"       from              [2022-03-28 Mon 03:36]
+** Schedule Task from calendar
+*** Schedule:  , D s 
+For calendar navigation use: up/down/right/left keys
+For Schedule use next format: 12:00+2
+*** Set Deadline: , D 
+Se puede usar S-UP/DOWN sobre las fechas, para modificarlas.
+* Code blocks
+[[hhttps://stackoverflow.com/questions/14704077/how-to-enable-auto-complete-in-emacs-org-babelttps://...][Read]]
+** narrow-to-region-indirect
+#+begin_src emacs-lisp :tangle ~/prueba.el 
+(defun narrow-to-region-indirect (start end)
+  "Restrict editing in this buffer to the current region, indirectly."
+  (interactive "r")
+  (deactivate-mark)
+  (let ((buf (clone-indirect-buffer nil nil)))
+    (with-current-buffer buf
+      (narrow-to-region start end))
+      (switch-to-buffer buf)))
+#+end_src
+
+** org-babel-switch-to-session-with-code
+*C-c C-v z* or C-c C-v org-babel-switch-to-session-with-code **
+** Org-edit-special
+*C-c '*
+*, '*
+
+#+begin_src emacs-lisp :tangle ~/prueba.el 
+  (use-package fira-code-mode
+    :ensure t
+    :custom (fira-code-mode-disabled-ligatures '("[]" "or" "OR" "#{" "#(" "#_" "#_(" "x")) ;; List of ligatures to turn off
+    :hook prog-mode
+    :config (fira-code-mode-set-font)
+    ) ;; Enables fira-code-mode automatically for programming major modes
+#+end_src

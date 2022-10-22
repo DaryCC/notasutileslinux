@@ -1,0 +1,76 @@
+#+title: Notas tomadas del curso de Django en educative.io
+#+description: Nomas estoy probando Org xD
+#+OPTIONS: toc:nil 
+* Table of  contect :TOC:
+- [[#form-and-field-validation-is_valid-clean][Form and Field Validation (is_valid, clean()...)]]
+  - [[#clean][Clean()]]
+  - [[#clean_fieldname][clean_<fieldname>()]]
+- [[#csrf][CSRF]]
+  - [[#csrf-middleware][CSRF Middleware]]
+  - [[#the-csrf-decorator-method][The CSRF Decorator Method]]
+
+* Form and Field Validation (is_valid, clean()...)
+** Clean()
+The ~clean()~ method on a Field subclass is responsible for running ~to_python()~,
+validate(), and run_validators() in the correct order and propagating their
+errors.
+If, at any time, any of the methods raise ValidationError, the validation stops
+and that error is raised. This method returns the clean data, which is then
+inserted into the cleaned_data dictionary of the form.
+
+** clean_<fieldname>()
+The ~clean_<fieldname>()~ method is called on a form subclass – where /<fieldname>/
+is replaced with the name of the form field attribute. This method does any
+cleaning that is specific to that particular attribute, unrelated to the type of
+field that it is. This method is not passed any parameters. You will need to
+look up the value of the field in self.cleaned_data and remember that it will be
+a Python object at this point, not the original string submitted in the form
+( will be in cleaned_data because the general field clean() method, above, has
+already cleaned the data once).
+
+For example, if you wanted to validate that the contents of a CharField called
+serialnumber was unique,  ~clean_serialnumber()~  would be the right place to do
+this. You don’t need a specific field (it’s a CharField), but you want a
+formfield-specific piece of validation and, possibly, cleaning/normalizing the
+data.
+
+The return value of this method replaces the existing value in ~cleaned_data~, so
+it must be the field’s value from cleaned_data (even if this method didn’t
+change it) or a new cleaned value.
+* CSRF
+** CSRF Middleware
+#+begin_src python 
+  MIDDLEWARE = [
+    'django.middleware.security.SecurityMiddleware',
+    'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.common.CommonMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware', #Csrf Middleware is added
+    'django.contrib.auth.middleware.AuthenticationMiddleware',
+    'django.contrib.messages.middleware.MessageMiddleware',
+    'django.middleware.clickjacking.XFrameOptionsMiddleware',
+]
+
+#+end_src
+Django has a template tag that makes it easy to use CSRF protection: 
+#+begin_src python
+    {% csrf_token %}
+    #In a template that uses the POST form, use the  *csrf_token* inside the *<form>* element.
+    <form action="" method="post">
+      {% csrf_token %}
+    </form>
+
+#+end_src
+** The CSRF Decorator Method
+Do you want to use CSRF protection on a particular view? Then csrf_protect
+decorator is right for you. It’s got the same functionality as the
+CsrfViewMiddleware, but it works only on the views you assign it to.
+#+begin_src python
+from django.shortcuts import render 
+from django.views.decorators.csrf import csrf_protect 
+
+@csrf_protect 
+def user(request):     
+    user = {}     
+    # ...     
+    return render(request, "user_view.html", user)
+#+end_src
