@@ -99,9 +99,10 @@ Se puede usar S-UP/DOWN sobre las fechas, para modificarlas.
 #+end_src
 
 ** org-babel-switch-to-session-with-code
-*C-c C-v z* or C-c C-v org-babel-switch-to-session-with-code **
+*C-c C-v z* or *C-c C-v* org-babel-switch-to-session-with-code 
 ** Org-edit-special
 *C-c '*
+
 *, '*
 
 #+begin_src emacs-lisp :tangle ~/prueba.el 

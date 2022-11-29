@@ -1,4 +1,4 @@
-#+title: Información que cura que me econtrado por ahí
+#+title: Información que cura que me he econtrado por ahí
 #+description: Notas personales para las diferentes herramientas que me han sido útiles en linux.
 #+OPTIONS: broken-links:t
 * Tabla de contenido :TOC:
@@ -12,6 +12,10 @@
 - [[#web-mode][Web-mode]]
   - [[#html-tags][HTML Tags]]
     - [[#foldunfold][fold/unfold]]
+- [[#spacemacs-useful-resources][Spacemacs useful resources]]
+  - [[#multiline-editing][Multiline editing]]
+    - [[#visual-mode-for-selection-of-block][Visual mode for selection of block]]
+    - [[#iedit][iedit]]
 - [[#magit][Magit]]
   - [[#setting-a-new-local-repo-to-github][Setting a new local repo to github]]
     - [[#at-local-repo][At local repo]]
@@ -134,8 +138,65 @@ C-c C-f
 #+end_src
 
 
+* Spacemacs useful resources
+** Multiline editing
+*** Visual mode for selection of block
+#+BEGIN_EXAMPLE
+- C-v
+- Cursor down (j, down)
+- I (insertion mode)
+- ESC (exit visual mode)
+#+END_EXAMPLE
+Lee sobre *evil-mode* or el manual de Vim para más detalle.
+
+*** iedit
+
+#+BEGIN_EXAMPLE
+  - *
+  - e (iedit)
+#+END_EXAMPLE
+#+BEGIN_EXAMPLE
+  - SPC s e
+  - ESC (exit iedit)
+#+END_EXAMPLE
+The ocurrence can be ~toggled~ with the ~TAB~ key.
+
+
+You can move cursor easily by using ~n~ or ~N~
+
+
+Iedit provides several way to restric the scope. For example, to restrict the
+scope to the function, just press ~f~.
+
+
+Reaad the iedit manual.
+
+#+begin_src html
+
+  <div id="root">
+      <li>Nadia</li>
+      <li>Madia</li>
+      <li>Radia</li>
+      <li>Padia</li>
+  </div>
+
+  <div id="root">
+      <li class="prueba">Nadia</li>
+      <li class="prueba">Madia</li>
+      <li class="prueba">Radia</li>
+      <li class="prueba">Padia</li>
+  </div>
+
+  <div id="root">
+      <li class="prueba2">Nadia</li>
+      <li class="prueba2">Madia</li>
+      <li class="prueba2">Radia</li>
+      <li class="prueba2">Padia</li>
+  </div>
+#+end_src
+
 * Magit
-Algunas notas son tomadas de:https://systemcrafters.net/mastering-git-with-magit/everyday-git-workflow/ 
+Algunas notas son tomadas de:https://systemcrafters.net/mastering-git-with-magit/everyday-git-workflow/
 ** Setting a new local repo to github
 *** At local repo
 #+begin_src shell
@@ -146,7 +207,7 @@ Algunas notas son tomadas de:https://systemcrafters.net/mastering-git-with-magit
 *** Create a new local repository in github
 *** In terminal, add the URL for the remote repository
 #+begin_src shell
-    $ git remote add origin  <REMOTE_URL> 
+    $ git remote add origin  <REMOTE_URL>
     git remote add origin git@github.com:user/repo.git
     # Sets the new remote
     $ git remote -v
@@ -203,7 +264,7 @@ git log --all --decorate --graph
 #+DOWNLOADED: file:///home/darycc/Desktop/rebase3.png @ 2022-06-20 14:55:46
 [[file:Magit/2022-06-20_14-55-46_rebase3.png]]
 
- 
+
 Have you ever made a mistake or created sloppy commits when checking in changes
 to a Git repository?
 
@@ -223,7 +284,7 @@ create a clean commit history with git rebase and Magit.
   git add .
 #+end_src
 *** git bisect
-Es una búsqueda binaria de errores,usualmnete se usa para encontrar ~bugs~ 
+Es una búsqueda binaria de errores,usualmnete se usa para encontrar ~bugs~
 medianta la selección de commits buenos y malos.
 #+DOWNLOADED: file:///home/darycc/Desktop/bisect.png @ 2022-06-20 15:07:09
 [[file:Magit/2022-06-20_15-07-09_bisect.png]]
@@ -315,7 +376,7 @@ cursor on a particular commit and using the following key bindings:
     + ~M-p~ / ~M-k~ (evil): Move the commit backward in time by one commit
 
 You can reorder multiple commits in one interactive rebase operation!\\
-Nota: en Spacemacs funciona ~M-n~ y ~M-p~. 
+Nota: en Spacemacs funciona ~M-n~ y ~M-p~.
 ** Resolving magit conlflictsealing with conflicts when moving commits
 
 
@@ -339,7 +400,7 @@ can use ~r a~ to abort the current rebase!
 **** *n/p* to move to next/previous conflicts
 **** *a/b* to chose wich changes (those in a A or B) should be the ones to keep in the merged file.
 **** You can always just switch to buffer C and edit what the merged version should look like
-*** By using Smerge, just pres RET in magit status, 
+*** By using Smerge, just pres RET in magit status,
 + C-c ^ RET       smerge-keep-current
 + C-c ^ =         Prefix Command
 + C-c ^ C         smerge-combine-with-next
@@ -428,7 +489,7 @@ Your commits on your 'develop' branch do not match the commits on your 'origin' 
 git pull origin develop --rebase
 #+end_src
 
-** Editing a commit 
+** Editing a commit
 We'll need to make a tweak to the following commit to restore the use of the new
 filet-new-recipe in the filet-add-recipe command since we had to remove it when
 resolving the previous conflicts.
@@ -717,12 +778,12 @@ usar un /force push/ debido a que se modificaron los registros.
    comparar el último commit con el commit al que se quiere revertir.\\
    ~d r~ to /diff a range/.
  *Nota*: con este método se generan nuevos commits o logs por cada commit
-   revertido. Se crean nuevos logs/registros. 
+   revertido. Se crean nuevos logs/registros.
 
-   
+
    Selecciona hasta los commits excluyendo el commit deseado.
 
-   
+
    Si existe algún conflicto luego de realizar los cambios y pushear el repo
    remoto usa ~-f~ /force with lease/
 *** Soft reset
