@@ -41,7 +41,7 @@
 * Lists
 You can read anything realted to list in Org mode here. [[https://orgmode.org/manual/Plain-Lists.html][Plain Lists]]
 
-~/M-S-LEFT/ ~M-S-RIGHT~ .Decrease/increase the indentation of the item, including subitems.
+~M-S-LEFT~ ~M-S-RIGHT~ .Decrease/increase the indentation of the item, including subitems.
 ~ Initially, the item tree is selected based on current indentation. When these
 commands are executed several times in direct succession, the initially selected
 region is used, even if the new indentation would imply a different hierarchy.
