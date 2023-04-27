@@ -39,6 +39,21 @@
 ** , x ...
 
 * Lists
+You can read anything realted to list in Org mode here. [[https://orgmode.org/manual/Plain-Lists.html][Plain Lists]]
+
+~/M-S-LEFT/ ~M-S-RIGHT~ .Decrease/increase the indentation of the item, including subitems.
+~ Initially, the item tree is selected based on current indentation. When these
+commands are executed several times in direct succession, the initially selected
+region is used, even if the new indentation would imply a different hierarchy.
+To use the new hierarchy, break the command chain by moving point.
+
+As a special case, using this command on the very first item of a list moves the
+whole list. This behavior can be disabled by configuring
+org-list-automatic-rules. The global indentation of a list has no influence on
+the text after the list.
+
+
+
 C-c C-c to check the bracket
 Use Visual mode and O
 ** Undoredered list (+)
